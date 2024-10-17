@@ -78,4 +78,3 @@ We'd like to inform you of important changes to our distribution repository [nod
 - **Questions and concerns:** To resolve questions and discuss concerns about this update we've opened this discussion space [New distribution&#39;s packages](https://github.com/nodesource/distributions/discussions/#123456)
 
 ## Postman Collection
-https://api.postman.com/collections/24585901-aa53bccd-cc2b-41c6-aa5b-ffe600048429?access_key=PMAT-01J406QQ1RFMBNZKYWWKGX5FMJ
