@@ -7,6 +7,7 @@ import { getDefaultConfig, RainbowKitProvider, midnightTheme, RainbowKitAuthenti
 import { WagmiProvider } from 'wagmi';
 import { arbitrum, base, mainnet, optimism, polygon, sepolia } from 'wagmi/chains';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import Transactions  from './components/pages/transactions';
 
 
 function App() {
@@ -29,7 +30,8 @@ function App() {
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
-            <Route path="staking" element={<Staking />} />
+                  <Route path="staking" element={<Staking />} />
+                  <Route path="transactions" element={<Transactions />} />
           </Route>
         </Routes>
       </BrowserRouter>
